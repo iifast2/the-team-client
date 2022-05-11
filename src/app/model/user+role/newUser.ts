@@ -1,22 +1,15 @@
 import {Role} from './role';
 
 
-export class User {
-    id?: any;
-    firstName?: any;
-   lastName? : any;
+export class newUser {
+
    username: any;
    password : any;
-   birthdate: any;
-   address?: any;
-   email: any;
-   // notifications: Notification[];
-   //  subscriptions: Subscription;
 
-     // @ts-ignore
-  etat? : any;
-roles?: Role[]=[];
-   phone?: any ;
+   email: any;
+
+roles: string[];
+
  //  publicities: Publicity[]=[];
  // publications : Publication[] = [];
 // certificats: Certificat[]=[];

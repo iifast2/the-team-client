@@ -27,7 +27,7 @@ export class LoginComponent implements OnInit {
       console.log(res.token);
 
       // @ts-ignore
-      //localStorage.token = res.jwt;
+      // localStorage.token = res.jwt;
       localStorage.setItem('token', JSON.stringify(res.token));
       this.router.navigateByUrl('/main');
       this.userService.findUserWithToken().subscribe(result => {

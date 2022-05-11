@@ -19,6 +19,7 @@ const routes: Routes = [
     // { path: 'login',          component: LoginComponent },
     // { path: '', redirectTo: 'home', pathMatch: 'full' }
     {path: '', component: LoginComponent},
+    { path: 'register',           component: SignupComponent },
     // {path: '**', component: LoginComponent}
     // { path: '**', redirectTo: '/', pathMatch: 'full' } ,
     {

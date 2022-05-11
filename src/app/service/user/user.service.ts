@@ -4,6 +4,7 @@ import {HttpClient, HttpHeaders} from '@angular/common/http';
 import {User} from '../../model/user+role/user';
 // @ts-ignore
 import {Observable} from 'rxjs/dist/types';
+import {newUser} from "../../model/user+role/newUser";
 
 
 @Injectable({
@@ -22,7 +23,8 @@ export class UserService {
     return this.http.get(this.baseUrl + 'auth', {headers: this.headers});
   }
 
-  add(user: User) {
+  add(user: newUser) {
+    console.log('token:' + JSON.parse(<string>localStorage.getItem('token')));
     this.headers = new HttpHeaders({Authorization: 'Bearer ' + JSON.parse(<string>localStorage.getItem('token'))});
     return this.http.post(this.baseUrl + 'users', user, {
       headers: this.headers
