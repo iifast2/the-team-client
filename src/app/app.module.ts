@@ -19,6 +19,7 @@ import { PublicityComponent } from './publicity/publicity.component';
 import { MainComponent } from './main/main.component';
 import {HttpClientModule} from '@angular/common/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { UsersComponent } from './users/users.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     FooterComponent,
     LoginComponent,
     PublicityComponent,
-    MainComponent
+    MainComponent,
+    UsersComponent
   ],
   imports: [
     BrowserModule,
