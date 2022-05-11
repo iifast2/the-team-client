@@ -18,6 +18,7 @@ import { LoginComponent } from './login/login.component';
 import { PublicityComponent } from './publicity/publicity.component';
 import { MainComponent } from './main/main.component';
 import {HttpClientModule} from '@angular/common/http';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -38,15 +39,9 @@ import {HttpClientModule} from '@angular/common/http';
     RouterModule,
     AppRoutingModule,
     HomeModule,
-<<<<<<< Updated upstream
-      HttpClientModule
-  ],
-=======
     HttpClientModule,
     BrowserAnimationsModule,
-  ReactiveFormsModule],
-
->>>>>>> Stashed changes
+    ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent]
 })
