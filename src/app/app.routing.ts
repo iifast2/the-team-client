@@ -10,6 +10,7 @@ import { LandingComponent } from './landing/landing.component';
 import { LoginComponent } from './login/login.component';
 import {PublicityComponent} from './publicity/publicity.component';
 import {MainComponent} from './main/main.component';
+import {UsersComponent} from './users/users.component';
 
 const routes: Routes = [
     // { path: 'home',             component: HomeComponent },
@@ -28,6 +29,7 @@ const routes: Routes = [
         children: [
             { path: 'home',             component: HomeComponent },
             { path: 'user-profile',     component: ProfileComponent },
+            { path: 'users',     component: UsersComponent },
             { path: 'register',           component: SignupComponent },
             { path: 'landing',          component: LandingComponent },
             // { path: 'login',          component: LoginComponent },

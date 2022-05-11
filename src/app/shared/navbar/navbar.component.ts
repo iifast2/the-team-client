@@ -12,6 +12,7 @@ export class NavbarComponent implements OnInit {
     private lastPoppedUrl: string;
     private yScrollStack: number[] = [];
 
+
     constructor(public location: Location, private router: Router) {
     }
 

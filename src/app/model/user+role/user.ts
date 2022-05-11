@@ -4,18 +4,18 @@ import {Role} from './role';
 export class User {
     id?: any;
     firstName?: any;
-   lastName? : any;
+   lastName?: any;
    username: any;
-   password : any;
-   birthdate: any;
+   password: any;
+   birthdate?: any;
    address?: any;
-   email: any;
-   // notifications: Notification[];
-   //  subscriptions: Subscription;
+   email?: any;
+   notifications?: Notification[];
+   // subscriptions?: Subscription[];
 
      // @ts-ignore
-  etat? : any;
-roles?: Role[]=[];
+  etat?: any;
+  roles?: Role[] = [];
    phone?: any ;
  //  publicities: Publicity[]=[];
  // publications : Publication[] = [];

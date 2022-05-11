@@ -4,7 +4,7 @@ import {HttpClient, HttpHeaders} from '@angular/common/http';
 import {User} from '../../model/user+role/user';
 // @ts-ignore
 import {Observable} from 'rxjs/dist/types';
-import {newUser} from "../../model/user+role/newUser";
+import {newUser} from '../../model/user+role/newUser';
 
 
 @Injectable({
