@@ -192,6 +192,8 @@ https://drive.google.com/file/d/11c1jLgsvD9-8oxFAc76Xw4SmysTecVsv/view?usp=shari
 
 ## My Doc - usefull tuto / links : 
 
+
+
 https://angular.io/guide/event-binding
 
 https://angular.io/guide/reactive-forms
@@ -200,7 +202,9 @@ https://www.techiediaries.com/build-angular-form/
 
 https://stackoverflow.com/questions/47400929/how-to-add-authorization-header-to-angular-http-request
 
+https://www.javaguides.net/2019/06/spring-boot-angular-8-crud-part-2-create-angular-8-app.html
 
+https://www.javachinna.com/angular-spring-boot-crud-app/
 
 <br/><br/><br/><br/>
 
