@@ -2,18 +2,24 @@
 
 # Version 1 : 
 
+```
+npm install --force
+```
 
 
-## Git : 
+```
+ng serve
+```
+
+
+<br/><br/><br/><br/>
+
+---
+
+
 
 ## source : 
 https://github.com/wafabenyahia/the-team-client
-
-
-## Drive 1 - before : 
-
-
-
 
 
 
@@ -169,13 +175,6 @@ PS C:\Users\medaminebt\Documents\GitHub\symfony5-laposte\pifront\the-team-client
 
 ```
 <br/><br/>
-
-```
-ng serve
-```
-
-
-<br/><br/><br/><br/>
 
 ---
 
